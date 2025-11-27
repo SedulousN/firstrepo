@@ -10,10 +10,10 @@ from textwrap import dedent
 
 st.set_page_config(page_title="C++ Algorithms Collection", layout="wide")
 
-st.title("C++ Algorithms Collection — 6 Standalone Programs")
+st.title("C++ Algorithms Collection")
 st.markdown(
     """
-This app contains six self-contained C++ programs (one per file).  
+This app contains six self-contained C++ programs.  
 Click the file name to expand and view the code. Use the **copy** icon in the code viewer or the **Download** buttons to get the source files.  
 You can also download all six files as a single ZIP.
 """
@@ -423,11 +423,6 @@ st.markdown("---")
 st.header("How to use")
 st.markdown(dedent("""
 - Each file is a self-contained C++ program with a small `main()` example.
-- Compile with a modern compiler, e.g.:  
-  `g++ -std=c++17 <filename>.cpp -O2 -o <binary>`  
-  `./<binary>`
-- The code is intentionally straightforward and commented to be easy to copy into your editor.
-- If you'd like: I can add input parsing templates (for competitive programming), convert Kuhn to Hopcroft–Karp, or provide a Dinic implementation for faster max-flow.
 """))
 
 st.markdown("Made with ❤️ — edit and share freely.")
